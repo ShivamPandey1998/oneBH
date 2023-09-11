@@ -121,7 +121,7 @@ const Header = () => {
           <NavItem href="#">Phone</NavItem>
           <NavItem href="#">Charger</NavItem>
           <NavItem href="#">Medicine</NavItem>
-          <NavItem href="#">Doctor</NavItem>
+          <NavItem href="#">New Product</NavItem>
         </Nav>
         <UserProfile>
           <Icon icon={penIcon} />

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Icon } from '@iconify/react';
 import notificationsOutline from '@iconify-icons/ion/notifications-outline';
-import penIcon from '@iconify-icons/mdi/pen';
 import EditProfileModal from './EditProfileModal';
 
 const HeaderContainer = styled.header`
@@ -124,8 +123,6 @@ const Header = () => {
           <NavItem href="#">New Product</NavItem>
         </Nav>
         <UserProfile>
-          <Icon icon={penIcon} />
-          <Username>Search</Username>
           <SearchBar
             placeholder="Search products..."
             value={searchTerm}
